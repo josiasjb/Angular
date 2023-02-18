@@ -24,7 +24,6 @@ export class CursosComponent implements OnInit{
     //var servico = new CursosService();
     this.cursos = this.cursosService.getCursos();
   }
-
   ngOnInit(): void {
   }
 
